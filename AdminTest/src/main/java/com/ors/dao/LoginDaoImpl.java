@@ -8,7 +8,6 @@ public class LoginDaoImpl implements LoginDao{
 	
 
 	public boolean validateLogin(String loginId, String pwd) {
-		System.out.println();
 		return (pwd.equals("admin@123") && loginId.equals("admin"));
 	}
 
